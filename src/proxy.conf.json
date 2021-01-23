@@ -1,0 +1,12 @@
+{
+  "/socket.io": {
+    "target": "https://z2g.herokuapp.com",
+    "changeOrigin": true,
+    "ws": true,
+    "secure": true,
+    "logLevel": "debug",
+    "headers": {
+      "Connection": "upgrade"
+    }
+  }
+}
